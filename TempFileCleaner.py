@@ -1,7 +1,7 @@
 import os
 import shutil
 
-recPath = "C:\\Users\\H0\\AppData\\Local\\Temp"
+recPath = "your path to %temp%"
 
 if os.path.exists(recPath):
     for file in os.listdir(recPath):
